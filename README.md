@@ -14,7 +14,7 @@ conda env create -n BldgPointSeg -f BldgSeg.yaml
 
 ## 実行
 ```
-# 除去するターゲットの指定
-# -t 0:right_wall, 1:left_wall, 2:back_wall, 3:floor, 4:ceiling
+# 除去するターゲットの指定 -t 0:right_wall, 1:left_wall, 2:back_wall, 3:floor, 4:ceiling
+
 python main.py -i ./image/depth -t 0
 ```
