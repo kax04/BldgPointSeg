@@ -12,7 +12,7 @@ conda env create -n BldgPointSeg -f BldgSeg.yaml
 ```
 
 ## 使用するモデル
-本プロジェクトでは、**線検出モデル ([M-LSD](https://github.com/navervision/mlsd))**の学習済モデルを使用します。
+本プロジェクトでは、** 線検出モデル ([M-LSD](https://github.com/navervision/mlsd)) **の学習済モデルを使用します。
 
 
 ## 実行
